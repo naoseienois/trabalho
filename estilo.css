@@ -1,0 +1,30 @@
+nav {
+    background-color: #f0f0f0; /* Cor de fundo do menu de navegação */
+    padding: 10px 0; /* Espaçamento interno superior e inferior */
+    text-align: center; /* Centraliza os itens horizontalmente */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o espaçamento interno da lista */
+    margin: 0; /* Remove a margem da lista */
+}
+
+nav ul li {
+    display: inline; /* Faz os itens ficarem lado a lado */
+    margin-right: 20px; /* Espaço entre os itens */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove a margem do último item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333; /* Cor do texto dos links */
+    font-weight: bold; /* Negrito para o texto dos links */
+}
+
+nav ul li a:hover {
+    color: #007bff; /* Cor do texto ao passar o mouse */
+}
